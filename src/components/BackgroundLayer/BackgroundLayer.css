@@ -1,0 +1,17 @@
+.background-layer {
+  background-color: pink;
+  height: 100%;
+  aspect-ratio: 28 / 36;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  image-rendering: pixelated;
+  content: url("../../images/background-sprites/background.png");
+  /* content: url("../../images/background-sprites/background-grid.png"); */
+}
+
+.background-tile {
+  display: block;
+  /* position: absolute; */
+}

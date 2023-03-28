@@ -1,0 +1,31 @@
+.pacman-sprite {
+  /* background-image: url("../../../public/images/pacman-sprites/pacman-sprite-sheet.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: calc((100% / (8 * 36)) * 13); */
+  /* aspect-ratio: 1; */
+  image-rendering: pixelated;
+  /* top: 20%;
+  left: 50%; */
+  /* animation: moving 2s infinite; */
+  /* animation: moving 0.2s infinite alternate; */
+  /* animation-timing-function: steps(2); */
+  /* animation: name duration timing-function delay iteration-count direction */
+  /* fill-mode; */
+}
+
+.pacman-sprite.facing-right {
+  transform: rotate(0deg);
+}
+
+.pacman-sprite.facing-left {
+  transform: rotate(180deg);
+}
+
+.pacman-sprite.facing-up {
+  transform: rotate(270deg);
+}
+
+.pacman-sprite.facing-down {
+  transform: rotate(90deg);
+}
