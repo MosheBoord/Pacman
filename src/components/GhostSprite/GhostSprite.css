@@ -1,0 +1,7 @@
+.ghost-sprite {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25%;
+  aspect-ratio: 1;
+  image-rendering: pixelated;
+}
